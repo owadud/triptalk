@@ -1,0 +1,116 @@
+*{
+    font-family: Oswald;
+}
+
+:root {
+    --black: #0A0A0A;
+    --gray:#838383;
+    --base-colors-white: #ffffff;
+
+  }
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}  
+p,a{
+    font-size: 16px;
+    color: var(--gray);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+}
+h1{
+    font-size: 38px;
+    color: var(--black);
+    text-transform: uppercase;
+    line-height: 48px;
+}
+
+
+h2{
+    color: var(--base-colors-white, #FFF);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+h3{
+    color: var(--base-colors-white, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+h4{
+    color:var(--black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+h5{
+    color: var(--black);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.social-media li{
+    list-style: none;
+}
+
+.norway-one{
+    background-image: url(images/hero-section.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    height: 272px;
+    position: relative;
+    
+    
+}
+.norway-two{
+    background-image: url(images/hero-section-two.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    height: 272px;
+    position: relative;  
+}
+button{
+    border: none;
+    padding: 5px 10px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.norway-one button{
+    background: #047FFA;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+   
+}
+.norway-two button{
+    background: #CE0CFF;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+   
+}
+.northern{
+    position: absolute;
+    bottom: 0;
+}
