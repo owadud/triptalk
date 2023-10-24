@@ -1,5 +1,6 @@
 *{
     font-family: Oswald;
+   
 }
 
 :root {
@@ -69,9 +70,32 @@ h5{
     line-height: 22px;
     text-transform: uppercase;
 }
-
+/* header */
+.top-bar-header{
+    margin: 45px 0px;
+}
+.btn{
+    padding: .325rem .75rem;
+}
+.search-box button{
+    right: 0px;
+}
 .social-media li{
     list-style: none;
+    margin-right: 10px;
+}
+
+/* navbar */
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin: auto;
+}
+.navbar-nav li{
+    margin-right: 10px;
 }
 
 .norway-one{

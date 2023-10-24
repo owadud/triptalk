@@ -14,7 +14,8 @@
 
     <!-- ======================header && navbar======================== -->
     <section id="header">
-        <header class="container">
+        <header>
+            <div class="container">
             <div class="top-bar-header row">
                 <div class="col-4">
                     <div class="d-flex social-media">
@@ -27,19 +28,20 @@
                 <div class="col-4">
                     <img src="images/Logo.png" alt="logo">
                 </div>
-                <div class="col-4">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><img src="images/Search.png"
+                <div class="col-4 search-box">
+                    <form class="d-flex position-relative">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark position-absolute" type="submit"><img src="images/Search.png"
                                 alt=""></button>
                     </form>
                 </div>
             </div>
+        </div>
 
-            <div class="main-nav">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="main-nav bg-dark">
+                <nav class="navbar navbar-expand-lg container">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
+                        <a class="navbar-brand" href="#"><img src="images/collapse.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -50,31 +52,35 @@
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
+                               
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown
+                                        Categories
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                         
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1"
-                                        aria-disabled="true">Disabled</a>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">DESTINATION</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                                
                             </ul>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            <form>
+                               
+                                <button class="btn btn-primary" type="submit">Subscribe</button>
                             </form>
                         </div>
                     </div>
@@ -531,45 +537,30 @@
 
 <!-- ==========================footer================================== -->
     <section>
-        <footer>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <footer class="footer bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+
+                        <img src="/images/logo.png" alt="TripTalk">
+                        <p>With grand cities, plenty of opportunities for adventure and some of the best hiking...</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+
                     </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
+                    <div class="col-2">
+                        <h3>Quick link</h3>
+                        <hr>
+                        <ul>
+                            
+                        </ul>
                     </div>
-                  </div>
+                    <div class="col-4"></div>
+                    <div class="col-2"></div>
+
                 </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+            </div>
+            
         </footer>
     </section>
 
