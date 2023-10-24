@@ -195,7 +195,7 @@ footer hr{
 .northern span{
     margin-left: 10px;
 }
-.northern p,.carousel-caption p{
+.northern p,.carousel-caption p,.discover-everything p{
     line-height: 20px;
     display: flex;
     align-items:center;
@@ -208,10 +208,10 @@ footer hr{
     color: #fff;
     line-height:48px;
 }
-.carousel-caption span{
+.carousel-caption span,.discover-everything span{
     margin-left: 10px;
 }
-.carousel-caption strong{
+.carousel-caption strong,.discover-everything strong{
     margin: 0px 10px;
 }
 
@@ -226,7 +226,7 @@ footer hr{
 .top-destination h1{
     margin: 70px 0px 27px 0px;
 }
-.destination{
+.destination,.discover button, .hills button{
     top: 5%;
     left: 10%;
 }
@@ -252,4 +252,77 @@ footer hr{
 }
 .post-block-section{
     margin: 60px 0 150px 0;
+}
+.amazing-places{
+    margin-bottom:70px;
+}
+.amazing-places h1{
+    margin-bottom: 30px;
+}
+.amazing-places h2{
+    color: var(--black);
+    font-size: 32px;
+    width: 80%;
+    line-height: 42px;
+}
+.discover-everything p{
+    width:80%;
+}
+
+.hills h3{
+    color: var(--black);
+    width: 90%;
+}
+.hills .most-places{
+    margin-bottom: 20px;
+}
+.hills .most-places>.position-relative img{
+    height: 188px;
+}
+.hills .city{
+    margin-left: 20px;
+}
+
+.my-journey-section{
+    margin-top:70px;   
+}
+.journal h1{
+    width:75%;
+}
+.popular-post h3{
+    font-size:24px;
+    line-height: 28px;
+}
+.small-block h4{
+    font-size:14px;
+    line-height: 22px;
+    width: 50%;
+}
+.small-block p{
+    font-size:14px;
+    line-height: 22px;
+    margin-bottom:5px;
+}
+.small-block{
+    margin-left: 20px;
+}
+
+.small-post-block{
+    top: 0;
+    margin-left:32px;
+    margin-top: 20px;
+}
+.small-post-block p{
+    color: #D9D9D9;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    width: 80%;
+}
+.small-post-block button{
+    color: #fff;
+    border: 1px solid #FFF;
 }
