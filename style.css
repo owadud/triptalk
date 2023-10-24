@@ -2,7 +2,9 @@
     font-family: Oswald;
    
 }
-
+ol, ul {
+    padding-left: 0rem;
+}
 :root {
     --black: #0A0A0A;
     --gray:#838383;
@@ -26,7 +28,10 @@ p,a{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.016px;
+    text-decoration: none;
+    
 }
+
 h1{
     font-size: 38px;
     color: var(--black);
@@ -154,9 +159,97 @@ footer hr{
 }
 .footer h5{
     color: #fff;
+    width: 168px;
 }
 .footer li{
     color: #fff;
     list-style: none;
     text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.most-read{
+    margin-bottom: 1.5rem;
+}
+.subscribe{
+    margin: 56px 0px;
+}
+.footer .form-control{
+    padding: 16px;
+}
+.copyright{
+    margin-top: 48px;
+}
+.copyright p>a{
+    color:#047FFA ;
+}
+.copyright li{
+    margin-right: 10px;
+}
+
+/* hero section */
+
+.northern{
+    margin-left: 24px;
+    width:263px;
+}
+.northern span{
+    margin-left: 10px;
+}
+.northern p,.carousel-caption p{
+    line-height: 20px;
+    display: flex;
+    align-items:center;
+}
+.carousel-caption{
+    text-align:left;
+}
+.carousel-caption h5{
+    font-size:38px;
+    color: #fff;
+    line-height:48px;
+}
+.carousel-caption span{
+    margin-left: 10px;
+}
+.carousel-caption strong{
+    margin: 0px 10px;
+}
+
+/* want to go */
+.where{
+    bottom:0px;
+    margin-left: 5%;
+}
+.want-to-go{
+    margin-top: 56px;
+}
+.top-destination h1{
+    margin: 70px 0px 27px 0px;
+}
+.destination{
+    top: 5%;
+    left: 10%;
+}
+/* Gutenberg block post */
+
+.Gutenberg{
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.Gutenberg h2{
+    font-size:44px;
+    line-height: 56px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    
+}
+.download button{
+    background: #047FFA;
+    padding: 14px 20px;
+}
+.post-block-section{
+    margin: 60px 0 150px 0;
 }
