@@ -138,3 +138,25 @@ button{
     position: absolute;
     bottom: 0;
 }
+
+/* footer */
+footer{
+    background:var(--black);
+}
+footer hr{
+    color: var(--base-colors-white);
+}
+.trip-talk p{
+    color: #fff;
+}
+.footer{
+    padding: 80px 0 48px 0px;
+}
+.footer h5{
+    color: #fff;
+}
+.footer li{
+    color: #fff;
+    list-style: none;
+    text-transform: uppercase;
+}
