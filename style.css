@@ -1,6 +1,10 @@
 *{
     font-family: Oswald;
    
+   
+}
+body{
+    overflow-x: hidden;
 }
 ol, ul {
     padding-left: 0rem;
@@ -147,6 +151,7 @@ button{
 /* footer */
 footer{
     background:var(--black);
+    margin-top: 80px;
 }
 footer hr{
     color: var(--base-colors-white);
@@ -286,17 +291,26 @@ footer hr{
 .my-journey-section{
     margin-top:70px;   
 }
+.my-journey-section h1{
+    margin-bottom: 30px;
+}
 .journal h1{
     width:75%;
 }
-.popular-post h3{
+.popular-post{
+    background: #F4F4F4;
+    padding: 20px;
+    
+}
+.popular-post h5{
+    
     font-size:24px;
     line-height: 28px;
 }
 .small-block h4{
     font-size:14px;
     line-height: 22px;
-    width: 50%;
+    width: 65%;
 }
 .small-block p{
     font-size:14px;
@@ -306,7 +320,9 @@ footer hr{
 .small-block{
     margin-left: 20px;
 }
-
+.post-block{
+    margin-top: 40px;
+}
 .small-post-block{
     top: 0;
     margin-left:32px;
@@ -325,4 +341,22 @@ footer hr{
 .small-post-block button{
     color: #fff;
     border: 1px solid #FFF;
+}
+.blog-one-section{
+    margin-top:32px;
+}
+.blog-second-section{
+    margin-top:34px;
+}
+
+.blog-pagination {
+    margin-top:60px;
+}
+.blog-pagination .page-link{
+    color: #838383;
+    border:1px solid #838383;
+}
+
+.latest-journal-small{
+    margin-bottom: 24px;
 }
